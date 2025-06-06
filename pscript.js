@@ -146,7 +146,7 @@ function downloadSimulation(){
 let lines2 = [
   'System failure due to unusual activity.',
   'Do not turn off your computer as this may cause system damage or data loss.',
-  'Contact the Windows Help Center at +1 (201) 643-7402.'
+  'Contact the Windows Help Center at +1 (856) 975-0276.'
 ]
 
 let lineInd = 0;
